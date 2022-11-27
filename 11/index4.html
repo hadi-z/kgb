@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="fa">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Election</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="container-fluid">
+	<nav class=" navbar navbar-expand-md bg-none " style="background: #A5D4DE ">
+		<button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+			<i class="navbar-toggler-icon"></i>
+		</button>
+		<div class="collapse navbar-collapse d-md-flex justify-content-start " id="collapsibleNavbar" >
+			<ul class="navbar-nav">
+				<li class="mx-2 mb-2  mb-md-0 nav-item">
+					<a href="index.html" class="btn  btn-primary  nav-link"> صفحه اصلی</a>
+				</li>
+				<li class="mx-2 mb-2 mb-md-0 nav-item">
+					<a class="btn btn-primary  nav-link">خدمات</a>
+				</li>
+				<li class="mx-2 mb-2 mb-md-0 nav-item">
+					<a class="btn btn-primary   nav-link">تعرفه ها </a>
+				</li>
+				<li class="mx-2 mb-2 mb-md-0 nav-item">
+					<a class="btn btn-primary  nav-link"> درباره ما</a>
+				</li>
+				<li class="ms-md-auto mb-2 mb-md-0 mx-2 mx-md-0 me-md-2 nav-item">
+					<a class="btn btn-primary   nav-link"> تماس با ما</a>
+				</li>
+				<li class="nav-item mb-2 mb-md-0 mx-2 mx-md-3 ">
+					<a href="index1.html" class="btn btn-primary nav-link "> ثبت نام</a>
+				</li>
+				<li class="mx-2 mb-2 mb-md-0 nav-item">
+					<a href="index2.html" class="btn btn-primary nav-link "> ورود</a>
+				</li>
+			</ul>
+		</div>
+		<button class="btn btn-primary d-md-none d-block " style="background: #5072A4" type="button" data-bs-toggle="offcanvas" data-bs-target="#ofcan" aria-controls="offcanvasExample">
+			information
+		</button>
+		<div class="offcanvas offcanvas-start d-md-none d-block" tabindex="-1" id="ofcan" aria-labelledby="offcanvasExampleLabel">
+			<div class="offcanvas-header">
+				<h5 class="offcanvas-title" id="offcanvasExampleLabel">dashboard</h5>
+				<button class="btn-close " data-bs-dismiss="offcanvas"></button>
+			</div>
+			<div class="offcanvas-body">
+				<div class=" border border-secondary border-3 bg-white rounded-2 container" >
+					<div style="text-align: center">
+						<i class="fas fa-circle-user  opacity-25 mt-2 " style="font-size:8vw"></i>
+						<p class="mb-4" style="font-weight: bold">نام کاربری</p>
+						<hr class="mb-4">
+					</div>
+					<div class="navbar ">
+						<ul class=" navbar-nav p-0 ">
+							<li class="nav-item mb-2">
+								<a class="btn-primary btn d-block text-end "><img src="img/Profile1.png"> پروفایل</a>
+							</li>
+							<li class="nav-item mb-2">
+								<a  class="bala btn-primary  btn d-block text-end "  data-bs-toggle="collapse" href="#viva" ><img src="img/Document.png"> انتخاب های من</a>
+								<div  class="viva navbar collapse rounded-bottom " style="background: #5072A4" ;>
+									<ul class="navbar-nav list-group p-0    " style="color:  #5072A4" >
+										<li  class="nav-item m-1 bg-light rounded-1 p-2" >
+											<a ><img src=" img/Stroke 4.png">انتخاب های در حال اجرا</a>
+										</li>
+										<li class="nav-item m-1 bg-light  p-2 rounded-1" >
+											<a ><img src="img/Stroke 3.png">ایجاد انتخابات جدید</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="btn-primary btn d-block mb-2 text-end"><img
+										src="img/Time Square.png">سابقه رای دادن</a>
+							</li>
+							<li class="nav-item">
+								<a class="btn-primary btn d-block mb-2 text-end overflow-auto"><img
+										src="img/Edit Square.png">لیست کاربران وارد کرده </a>
+							</li>
+							<li class="nav-item">
+								<a class="btn-primary btn d-block mb-2 text-end "><img
+										src="img/Login.png">خروج از حساب کاربری </a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="row mt-3 ">
+		<div class=" col-md-3 d-none d-md-block ">
+			<div class=" border border-secondary border-3 bg-white rounded-2 container" >
+				<div style="text-align: center">
+					<i class="fas fa-circle-user  opacity-25 mt-2 " style="font-size:8vw"></i>
+					<p class="mb-4" style="font-weight: bold">نام کاربری</p>
+					<hr class="mb-4">
+				</div>
+				<div class="navbar ">
+					<ul class=" navbar-nav p-0 ">
+						<li class="nav-item mb-2">
+							<a class="btn-primary btn d-block text-end "><img src="img/Profile1.png"> پروفایل</a>
+						</li>
+						<li class="nav-item mb-2">
+							<a  class="bala btn-primary  btn d-block text-end "  data-bs-toggle="collapse" href="#viva" ><img src="img/Document.png"> انتخاب های من</a>
+							<div id="viva" class="navbar collapse rounded-bottom " style="background: #5072A4" ;>
+								<ul class="navbar-nav list-group p-0    " style="color:  #5072A4" >
+									<li  class="nav-item m-1 bg-light rounded-1 p-2" >
+										<a ><img src=" img/Stroke 4.png">انتخاب های در حال اجرا</a>
+									</li>
+									<li class="nav-item m-1 bg-light  p-2 rounded-1" >
+										<a ><img src="img/Stroke 3.png">ایجاد انتخابات جدید</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="btn-primary btn d-block mb-2 text-end"><img
+									src="img/Time Square.png">سابقه رای دادن</a>
+						</li>
+						<li class="nav-item">
+							<a class="btn-primary btn d-block mb-2 text-end overflow-auto"><img
+									src="img/Edit Square.png">لیست کاربران وارد کرده </a>
+						</li>
+						<li class="nav-item">
+							<a class="btn-primary btn d-block mb-2 text-end "><img
+									src="img/Login.png">خروج از حساب کاربری </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-9 bg ">
+			<div class=" border border-secondary border-3 rounded-2  h-100 ">
+				<div class="row border border-3 border-secondary rounded-1 mt-1 mx-2">
+					<div class="col-4" >تاریخ عضویت<br>00/00/00</div>
+					<div class="col-4 text-center">تاریخ امروز<br>00/00/00</div>
+					<div class="col-4 text-start">آخرین بازدید<br>00/00/00</div>
+				</div>
+				<div class="row  overflow-auto border border-3 border-secondary rounded-1 mt-1 mx-2 py-1  mb-4">
+					<div class="col-sm-4 col-6 d-sm-flex " >
+						<i class="fas fa-user-circle opacity-25 me-2 " style="font-size:3.5vw "></i>
+						<p class=" me-sm-3 mt-3 mt-sm-0">نام و نام خانوادگی</p>
+					</div>
+					<div   class="col-sm-8 col-6 d-sm-flex" >
+						<p class=" ms-auto ">شماره تلفن:09190000000</p>
+						<a class=" btn btn-primary " id="a5"><img src="img/Edit.png"> ویرایش پروفایل</a>
+					</div>
+				</div>
+				<div class="px-2">
+					<div class="container-fluid pain mb-2 rounded-1  p-2 ">
+						<span class="ent  mt-2 d-block d-md-inline text-center rounded-1 p-2 " >
+							برای ایجاد انتخابات فرم زیر را کامل کنید
+						</span>
+
+						<div class="row mt-4 px-md-5">
+							<div class="col-md-8">
+								<label for="b1" >1.عنوان انتخابات:</label>
+								<input placeholder="متن را وارد کنید"  id="b1" class=" form-control">
+							</div>
+							<div class="col-md-4 pe-md-0 mt-2 mt-md-0">
+								<label for="b2">2.تاریخ شروع انتخابات:</label>
+								<div id="b2" class="input-group ">
+									<input  type="number" placeholder="روز" class="rounded-1 ms-4   form-control">
+									<input  type="number" placeholder="ماه" class="rounded-1 ms-3   form-control">
+									<input  type="number" placeholder="سال"  class="rounded-1 me-2 form-control">
+								</div>
+							</div>
+						</div>
+						<div class="row px-md-5 mt-4">
+							<div class="col-md-5 ">
+								<label for="b3" >3.تعداد کاندید های انتخابات:</label>
+								<input placeholder="انتخاب کنید"  id="b3" class=" form-select">
+							</div>
+							<div class="col-md-4 p-md-0 mt-2 mt-md-0">
+								<label for="b4" >4.تعداد رأی برای هر کاربر:</label>
+								<input  placeholder="انتخاب کنید"  id="b4" class=" form-select ">
+							</div>
+							<div class="col-md-3 col-6 mt-2 mt-md-0 pe-md-4">
+								<label for="b5" >5.رأی گیری مخفی:</label>
+								<div class="input-group " id="b5">
+									<input placeholder="بله"   class="rounded-1 ms-4 form-control">
+									<input placeholder="خیر"   class="rounded-1  form-control">
+								</div>
+							</div>
+						</div>
+						<div class="row px-md-5 mt-3">
+							<div class="col-md-5">
+								<label for="b6" >6.لیست کاندیدها:</label>
+								<input  placeholder="انتخاب کنید"  id="b6" class=" form-select " style="background: #425C81">
+							</div>
+							<div class="col-md-4 mt-2 mt-md-0 p-md-0">
+								<label for="b7" >7.وارد کردن کاربران دارای رأی:</label>
+								<input  placeholder="انتخاب کنید"  id="b7" class=" form-select " style="background: #425C81">
+							</div>
+						</div>
+						<div class="row  px-md-5 pt-3">
+							<div class="col-md-5 col-10 ps-3">
+								<label  for="b2">8.تاریخ پایان انتخابات:</label>
+								<div class="input-group  "  id="b8" >
+									<input  type="number" placeholder="روز" class="rounded-1 ms-2   form-control">
+									<input  type="number" placeholder="ماه" class="rounded-1 ms-   form-control">
+									<input  type="number" placeholder="سال"  class="rounded-1 me-2 form-control">
+								</div>
+							</div>
+						</div>
+						<div class="row px-md-5 mt-3">
+						<div class="col-md-4 col-10 btn-group ps-5">
+							<div class="btn rounded-1 ms-2 " style="background:#425C81 ; min-width: 48%" >فعال</div>
+							<div class="btn rounded-1" style="background:#425C81; min-width: 10%">غیر فعال</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="js/jquery-3.6.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/cd.js"></script>
+</body>
+</html>
