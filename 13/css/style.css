@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #dff9fb !important;
+    direction: rtl;
+    font-size: 15px !important;
+}
+
+label{
+    display: block;
+    float: right;
+}
+#bkg{
+max-width: 90%;
+}
+ul{
+    width: 100%;
+}
+.nav-item{
+    min-width: 8%;
+}
+.navbar-nav .btn{
+    background: #5072A4;
+    color: #ffffff;
+}
+.navbar-nav .btn:hover{
+    background: aliceblue;
+    color: #5072A4;
+}
+#a1 , #a2 , #a3 , #a4 , #a5 , #a6 , #a7 , #a8 , #a9 , #a10{
+    background: #5072A4;
+    color: #ffffff;
+}
+#a1:hover , #a2:hover , #a3:hover , #a4:hover , #a5:hover , #a6:hover , #a7:hover , #a8:hover , #a9:hover , #a10:hover {
+    background: #dfe4ea;
+    color: #5072A4;
+}
+
+#a1 , #a2{
+    min-width: 100%;
+}
+.viva li:hover{
+    cursor: pointer;
+}
+a{
+    border:none !important;
+}
+a:hover{
+    border:1px solid !important;
+}
+.bala:focus{
+    border-bottom-left-radius:0 ;
+    border-bottom-right-radius:0 ;
+}
+.imag1{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    z-index: -1;
+}
+.imag2{
+    position: absolute;
+    right:0;
+    bottom: -1%;
+    z-index: -1;
+}
+.imag3{
+    position: absolute;
+    left: 0;
+    bottom: -1%;
+    z-index: -1;
+}
+.imag4{
+    position: absolute;
+    left: 0;
+    bottom: -14%;
+    z-index: -1;
+}
+.imag5{
+    position: absolute;
+    right:0;
+    bottom: -14%;
+    z-index: -1;
+}
+.imag6{
+    position: absolute;
+    left: 0;
+    bottom: -28.6%;
+    z-index: -1;
+}
+.imag7{
+    position: absolute;
+    right:0;
+    bottom: -28.6%;
+    z-index: -1;
+}
+.ent{
+    border: 1px dashed grey;
+}
+.pain{
+    border: 2px solid #5072A4;
+    border-top: none;
+    border-bottom-left-radius:3px ;
+    border-bottom-right-radius:3px ;
+}
+/***html5****/
+.z1 , .z2{
+    border: 2px solid #425C81;
+}
+.z2 table{
+width: 100%;
+}
+.z2 tr:nth-child(odd){
+background:#ffffff ;
+}
+.z2 p{
+    border: 1px solid #425C81;
+    padding: 0;
+    margin: 0;
+    border-radius: 2px;
+    text-align: center;
+    background: #ffffff;
+    min-width: 3%;
+}
+.z2 tr:nth-child(odd) a {
+    background:#dff9fb ;
+    padding: 0 10px 0;
+    border:1px solid #425C81 !important;
+    margin: 0;
+}
+.z2 tr:nth-child(even) a{
+    background:#425C81 ;
+    padding: 0 10px 0;
+    border:1px solid #425C81 !important;
+    margin: 0;
+    color: #ffffff;
+}
+/****/
+#s2{
+    border-top:20px solid #425C81 ;
+    border-bottom:20px solid #425C81 ;
+}
+#s3 .bg-white{
+    min-height: 100px;
+    min-width: 20%;
+}
+.image1{
+    transform: translateY(-15%);
+}
